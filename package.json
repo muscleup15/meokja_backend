@@ -1,0 +1,26 @@
+{
+  "name": "meokja_backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@slack/web-api": "^6.7.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "express-async-errors": "^3.1.1",
+    "mysql2": "^2.3.3",
+    "node-sens": "^1.3.0",
+    "request": "^2.88.2",
+    "response-time": "^2.3.2",
+    "sequelize": "^6.21.3",
+    "sequelize-paginate": "^1.1.6"
+  }
+}
